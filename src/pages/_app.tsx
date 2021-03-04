@@ -15,6 +15,11 @@ function App({ Component, pageProps }: AppProps) {
           name="description"
           content="A simple project to show my favorites spots in the world."
         />
+
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
